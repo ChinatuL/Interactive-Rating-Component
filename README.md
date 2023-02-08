@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/ChinatuL)
--   Live Site URL: [Add live site URL here](https://chinatul.github.io/Interactive-Rating-Component/)
+-   Solution URL: [Click here to view source code](https://github.com/ChinatuL)
+-   Live Site URL: [Click here to view live site](https://chinatul.github.io/Interactive-Rating-Component/)
 
 ## My process
 
