@@ -1,9 +1,9 @@
 const rateBtns = document.querySelectorAll(".rate-btn");
+const submitBtn = document.querySelector(".submit-btn");
+const card = document.querySelector(".card");
+const thanksCard = document.querySelector(".card-thanks");
 let rateValue = 0;
 let customerRating = document.querySelector(".customer-rating");
-const submitBtn = document.querySelector(".submit-btn");
-let card = document.querySelector(".card");
-let thanksCard = document.querySelector(".card-thanks");
 
 rateBtns.forEach((btn) =>
     btn.addEventListener("click", () => {

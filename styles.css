@@ -1,4 +1,4 @@
-/* Colours */
+/*=========== Colours =============*/
 :root {
     --Orange: hsl(25, 97%, 53%);
     --White: hsl(0, 0%, 100%);
@@ -43,8 +43,8 @@ body {
 }
 
 .header-icon img {
-    padding: 0.8rem;
     border-radius: 50%;
+    padding: 0.8rem;
     background-color: var(--Button-Blue);
 }
 
@@ -67,13 +67,13 @@ body {
 }
 
 .rate-btn {
+    transition: var(--transition);
     border: none;
     border-radius: 50%;
-    cursor: pointer;
     padding: 1.1rem 1.5rem;
     background-color: var(--Button-Blue);
+    cursor: pointer;
     color: var(--Light-Grey);
-    transition: var(--transition);
     font-size: 1.1rem;
 }
 
@@ -93,14 +93,14 @@ body {
 }
 
 .submit-btn {
+    transition: var(--transition);
     border: none;
     border-radius: 3rem;
     width: 100%;
     padding: 0.8rem;
-    cursor: pointer;
     background-color: var(--Orange);
+    cursor: pointer;
     color: var(--White);
-    transition: var(--transition);
     font-family: "Overpass", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -132,4 +132,16 @@ body {
 
 .card-thanks .title {
     padding-top: 2rem;
+}
+
+/*=========== Media Queries ===========*/
+@media (max-width: 475px) {
+    .card,
+    .card-thanks {
+        max-width: 320px;
+    }
+
+    .rate-btn {
+        padding: 0.8rem 1.2rem;
+    }
 }
