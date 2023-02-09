@@ -54,9 +54,8 @@ Users should be able to:
 One of the useful properties I learned in this project was how to use the JavaScript **classList** property to add/remove classes to elements.
 
 ```js
-if (btn.classList.contains("btn-clicked")) {
-    btn.classList.remove("btn-clicked");
-    rateValue = 0;
+if (!rateValue) {
+    rateAlert.classList.add("show-alert");
 }
 ```
 

@@ -9,7 +9,6 @@ form.addEventListener("submit", (e) => {
     const rateValue = form.rating.value;
     if (!rateValue) {
         rateAlert.classList.add("show-alert");
-        console.log(rateValue);
     } else {
         customerRating.innerHTML = `You have selected ${rateValue} out of 5`;
         card.style.display = "none";
