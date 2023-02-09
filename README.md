@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Github Repo](https://github.com/ChinatuL)
--   Live Site URL: [https://chinatul.github.io/Interactive-Rating-Component/](https://your-live-site-url.com)
+-   Live Site URL: [Click here to view live site](https://your-live-site-url.com)
 
 ## My process
 
