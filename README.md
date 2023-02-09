@@ -4,16 +4,16 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ## Table of contents
 
--   [Frontend Mentor - Interactive rating component](#frontend-mentor---interactive-rating-component)
-    -   [Table of contents](#table-of-contents)
-    -   [Overview](#overview)
-        -   [The challenge](#the-challenge)
-        -   [Screenshot](#screenshot)
-        -   [Links](#links)
-    -   [My process](#my-process)
-        -   [Built with](#built-with)
-        -   [What I learned](#what-i-learned)
-    -   [Author](#author)
+- [Frontend Mentor - Interactive rating component](#frontend-mentor---interactive-rating-component)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+  - [Author](#author)
 
 ## Overview
 
@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/ChinatuL)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [https://github.com/ChinatuL/Interactive-Rating-Component](https://github.com/ChinatuL)
+-   Live Site URL: [https://chinatul.github.io/Interactive-Rating-Component/](https://your-live-site-url.com)
 
 ## My process
 

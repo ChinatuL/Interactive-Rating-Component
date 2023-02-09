@@ -21,30 +21,76 @@
     </head>
     <body>
         <main>
-            <section class="card">
+            <div class="card">
                 <div class="header-icon">
-                    <img src="./images/icon-star.svg" alt="star icon" />
+                    <img src="./images/icon-star.svg" alt="" />
                 </div>
                 <h1 class="title">How did we do?</h1>
                 <p class="description">
                     Please let us know how we did with your support request. All
                     feedback is appreciated to help us improve our offering.
                 </p>
-                <div class="rate-btns">
-                    <button id="1" class="rate-btn">1</button>
-                    <button id="2" class="rate-btn">2</button>
-                    <button id="3" class="rate-btn">3</button>
-                    <button id="4" class="rate-btn">4</button>
-                    <button id="5" class="rate-btn">5</button>
-                </div>
-                <input type="submit" value="Submit" class="submit-btn" />
-            </section>
-            <section class="card-thanks">
+                <form id="form">
+                    <fieldset class="rate-container">
+                        <legend class="form-legend">Please rate us</legend>
+                        <div class="rate-container">
+                            <input
+                                type="radio"
+                                name="rating"
+                                id="one"
+                                value="1"
+                                class="rate-btn"
+                            />
+                            <label for="one">1</label>
+                        </div>
+                        <div class="rate-container">
+                            <input
+                                type="radio"
+                                name="rating"
+                                id="two"
+                                value="2"
+                                class="rate-btn"
+                            />
+                            <label for="two">2</label>
+                        </div>
+                        <div class="rate-container">
+                            <input
+                                type="radio"
+                                name="rating"
+                                id="three"
+                                value="3"
+                                class="rate-btn"
+                            />
+                            <label for="three">3</label>
+                        </div>
+                        <div class="rate-container">
+                            <input
+                                type="radio"
+                                name="rating"
+                                id="four"
+                                value="4"
+                                class="rate-btn"
+                            />
+                            <label for="four">4</label>
+                        </div>
+                        <div class="rate-container">
+                            <input
+                                type="radio"
+                                name="rating"
+                                id="five"
+                                value="5"
+                                class="rate-btn"
+                            />
+                            <label for="five">5</label>
+                        </div>
+                    </fieldset>
+                    <input type="submit" value="Submit" class="submit-btn" />
+                </form>
+                <p class="alert">Please select a rating</p>
+            </div>
+            <div class="card-thanks">
                 <div class="header-img">
-                    <img
-                        src="./images/illustration-thank-you.svg"
-                        alt="thank you illustration"
-                    />
+                    <img src="./images/illustration-thank-you.svg" alt="" />
                 </div>
                 <p class="customer-rating"></p>
                 <h1 class="title thanks-state">Thank you!</h1>
@@ -52,7 +98,7 @@
                     We appreciate you taking your time to give a rating. If you
                     ever need more support, don't hesitate to get in touch.
                 </p>
-            </section>
+            </div>
         </main>
         <script src="./script.js"></script>
     </body>

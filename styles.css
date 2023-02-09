@@ -34,12 +34,25 @@ body {
 
 .card,
 .card-thanks {
+    position: relative;
+    left: 0;
     border-radius: 2rem;
     min-width: 340px;
     max-width: 400px;
     height: 100%;
     padding: 2rem 1.5rem;
     background-color: var(--Dark-Blue);
+    animation-name: slide;
+    animation-duration: 2s;
+}
+
+@keyframes slide {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
 }
 
 .header-icon img {
@@ -59,16 +72,38 @@ body {
     padding-top: 0.5rem;
 }
 
-.rate-btns {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 1rem 0 2rem;
+fieldset {
+    border: none;
 }
 
-.rate-btn {
+form {
+    margin: 2rem 0;
+}
+
+.form-legend {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.rate-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="radio"] {
+    width: 0;
+    appearance: none;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
     transition: var(--transition);
-    border: none;
     border-radius: 50%;
     padding: 1.1rem 1.5rem;
     background-color: var(--Button-Blue);
@@ -77,17 +112,16 @@ body {
     font-size: 1.1rem;
 }
 
-.rate-btn:hover {
+#one + label {
+    padding: 1.1rem 1.6rem !important;
+}
+
+input[type="radio"] + label:hover {
     background-color: var(--Orange);
     color: var(--White);
 }
 
-.btn-clicked {
-    background-color: var(--Medium-Grey);
-    color: var(--White);
-}
-
-.btn-clicked:hover {
+input[type="radio"]:checked + label {
     background-color: var(--Medium-Grey);
     color: var(--White);
 }
@@ -96,6 +130,7 @@ body {
     transition: var(--transition);
     border: none;
     border-radius: 3rem;
+    margin-top: 1.5rem;
     width: 100%;
     padding: 0.8rem;
     background-color: var(--Orange);
@@ -110,6 +145,15 @@ body {
 .submit-btn:hover {
     background-color: white;
     color: var(--Orange);
+}
+
+.alert {
+    display: none;
+    color: var(--Orange);
+}
+
+.show-alert {
+    display: block;
 }
 
 .card-thanks {
@@ -139,9 +183,5 @@ body {
     .card,
     .card-thanks {
         max-width: 320px;
-    }
-
-    .rate-btn {
-        padding: 0.8rem 1.2rem;
     }
 }
